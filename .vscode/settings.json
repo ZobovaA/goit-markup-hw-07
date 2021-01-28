@@ -1,29 +1,19 @@
-"liveSassCompile.settings.formats":[
-    // This is Default.
+{"liveSassCompile.settings.formats": [
     {
         "format": "expanded",
         "extensionName": ".css",
-        "savePath": null
+        "savePath": "/css"
     },
-    // You can add more
     {
         "format": "compressed",
         "extensionName": ".min.css",
-        "savePath": "/dist/css"
-    },
-    // More Complex
-    {
-        "format": "compressed",
-        "extensionName": ".min.css",
-        "savePath": "~/../css/"
+        "savePath": "/css"
+    
     }
 ],
 
-"liveSassCompile.settings.autoprefix": [
-    "> 1%",
-    "last 2 versions"
+"liveSassCompile.settings.autoprefix": ["> 1%", "last 2 versions"
 ],
 
-"liveSassCompile.settings.excludeList": [
-    "path/subpath/*[!(file1|file2)].scss"
-]
+"liveSassCompile.settings.excludeList": [  "**/node_modules/**",".vscode/**"
+]}
