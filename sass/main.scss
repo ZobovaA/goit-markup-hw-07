@@ -1,13 +1,4 @@
-:root {
-    --main-fonts-color: #212121;
-    --secondary-fonts-color: #757575;
-    --sec-background-color: #f5f4fa;
-    --main-bck-color: #e5e5e5;
-    --top-bottom-background-color: #2f303a;
-    --accent-color: #2196f3;
-    --main-font-family: "Roboto", sans-serif;
-    --secondary-font-family: "Raleway", sans-serif;
-  }
+@import'utils/variables';
   a {
     text-decoration: none;
   }
@@ -28,7 +19,7 @@
     list-style-type: none;
   }
   body {
-    font-family:var(--main-font-family);
+    font-family:$main-font-family;
   }
   
   .container {
@@ -38,24 +29,24 @@
   }
   
   .logo {
-    font-family: var(--secondary-font-family);
+    font-family: $secondary-font-family;
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    color: var(--accent-color);
+    color: $accent-color;
     margin-right: 93px;
     width: 145px;
   }
   
   .header-adress {
     margin-left: auto;
-    font-family: var(--main-font-family);
+    font-family: $main-font-family;
     align-items: center;
     justify-content: center;
     display: flex;
-    transition: var(--accent-color) 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: $accent-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   
   .link-header {
@@ -78,7 +69,7 @@
   }
   .link-header:hover,
   .link-header:focus {
-    color: var(--accent-color);
+    color: $accent-color;
   }
   .header-main-nav {
     display: flex;
@@ -114,7 +105,7 @@
   .header-contacts {
     text-decoration: none;
     font-style: normal;
-    color: var(--secondary-fonts-color);
+    color: $secondary-fonts-color;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -123,7 +114,7 @@
   
   .header-contacts:focus,
   .header-contacts:hover {
-    color: var(--accent-color);
+    color: $accent-color;
   }
   
   .header-links {
@@ -132,7 +123,7 @@
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
-    color: var(--main-fonts-color);
+    color: $main-fonts-color;
     padding: 32px 0;
   
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -147,7 +138,7 @@
     width: 100%;
     height: 4px;
     border-radius: 2px 2px;
-    background-color: var(--accent-color);
+    background-color: $accent-color;
     opacity: 0;
   
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -159,7 +150,7 @@
   }
   .header-links:focus,
   .header-links:hover {
-    color: var(--accent-color);
+    color: $accent-color;
   }
   
   /*анимация*/
@@ -214,8 +205,8 @@
     border-radius: 4px;
     border: 0 solid transparent;
     min-width: 200px;
-    color: var(--main-bck-color);
-    background: var(--accent-color);
+    color: $main-bck-color;
+    background: $accent-color;
     font-family: inherit;
     font-weight: 700;
     font-size: 16px;
@@ -232,8 +223,8 @@
   .portfolio_button {
     padding: 6px 22px;
     line-height: 1.6;
-    color: var(--main-fonts-color);
-    background: var(--sec-background-color);
+    color: $main-fonts-color;
+    background: $sec-background-color;
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
@@ -248,20 +239,20 @@
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
       0px 2px 2px rgba(0, 0, 0, 0.12);
     color: #ffffff;
-    background: var(--accent-color);
+    background: $accent-color;
   }
   
   
   /*main*/
   
   .main-title-h2 {
-    color: var(--main-fonts-color);
+    color: $main-fonts-color;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
   }
   .main-title-h3{
-    color: var(--main-fonts-color);
+    color: $main-fonts-color;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.19;
@@ -275,7 +266,7 @@
     margin-inline-end: 0px;
     font-size: 14px;
     line-height: 1.7;
-    color: var(--secondary-fonts-color);
+    color: $secondary-fonts-color;
   }
   
   .main-ourteam-block{
@@ -285,13 +276,13 @@
   
   .description-index {
     text-align: center;
-    color: var(--secondary-fonts-color);
+    color: $secondary-fonts-color;
     font-size: 16px;
     line-height: 1.19;
   }
   
   .main-section2 {
-    background-color: var(--sec-background-color);
+    background-color: $sec-background-color;
     padding-bottom: 94px;
     padding-top: 94px;
   }
@@ -424,8 +415,8 @@
     margin-left: auto;
     padding-top: 60px;
     padding-bottom: 60px;
-    background-color: var(--top-bottom-background-color);
-    font-family: var(--main-font-family);
+    background-color: $top-bottom-background-color;
+    font-family: $main-font-family;
   }
   .footer-list {
     margin-top: 20px;
@@ -450,7 +441,7 @@
     text-decoration: none;
     font-style: normal;
     color: rgba(255, 255, 255, 0.6);
-    font-family: var(--main-font-family);
+    font-family: $main-font-family;
     margin-top: 9px;
     font-size: 14px;
   }
@@ -492,7 +483,7 @@
   }
   
   .subscribe-text{
-  font-family: var(--main-font-family);
+  font-family: $main-font-family;
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
@@ -513,20 +504,20 @@
    box-sizing: border-box;
    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
    border-radius: 4px;
-   background-color: var(--top-bottom-background-color);
+   background-color: $top-bottom-background-color;
    width: 358px;
    height: 50px;
    padding: 15px 18px;
    margin-right: 12px;
-   color: var(--sec-background-color);
+   color: $sec-background-color;
   }
   
   .footer-button {
     height: 50px;
     width: 200px;
-    background-color: var(--accent-color);
+    background-color: $accent-color;
     padding: 10px 62px 10px 28px;
-    font-family: var(--main-font-family);
+    font-family: $main-font-family;
     font-weight: bold;
     font-size: 16px;
     line-height: 1.9;
@@ -550,13 +541,13 @@
     margin: -1px;
   }
   .portfolio-text1 {
-    color: var(--main-fonts-color);
+    color: $main-fonts-color;
     font-size: 18px;
     line-height: 2;
   }
   
   .portfolio-subtext{
-    color: var(--secondary-fonts-color);
+    color: $secondary-fonts-color;
     font-size: 16px;
     line-height: 1.9;
     letter-spacing: 0.03em;
@@ -605,7 +596,7 @@
   
   .portfolio-info {
     padding: 20px 24px;
-    font-family: var(--main-font-family);
+    font-family: $main-font-family;
   }
   
   .portfolio-text1 {
@@ -619,7 +610,7 @@
     position: absolute;
     width: 100%;
     height: 100%;
-    background-color: var(--accent-color);
+    background-color: $accent-color;
     opacity: 0.9;
     top: 0;
     left: 0;
@@ -632,7 +623,7 @@
     font-size: 18px;
     line-height: 1.6;
     padding: 63px 24px;
-    font-family: var(--main-font-family);
+    font-family: $main-font-family;
     font-weight: normal;
     
     letter-spacing: 0.03em;
@@ -675,7 +666,7 @@
   
   .social-link:hover,
   .social-link:focus {
-    background-color: var(--accent-color);
+    background-color: $accent-color;
     color: #ffffff;
   }
   
@@ -753,7 +744,7 @@
   
   .clients-master:hover,
   .clients-master:focus {
-    color: var(--accent-color);
+    color: $accent-color;
   }
   
   
@@ -763,7 +754,7 @@
     color: #ffffff;
     width: 145px;
     height: 16px;
-    font-family: var(--main-font-family);
+    font-family: $main-font-family;
     font-weight: bold;
     font-size: 14px;
     line-height: 1.4;
@@ -797,7 +788,7 @@
   
   
   .current {
-    color: var(--accent-color);
+    color: $accent-color;
   }
   .current::after {
     content: "";
@@ -808,7 +799,7 @@
     width: 100%;
     height: 4px;
     border-radius: 2px 2px;
-    background-color: var(--accent-color);
+    background-color: $accent-color;
     opacity: 1;
     
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -850,12 +841,12 @@
   
   .form-name{
     margin-bottom: 4px;
-    font-family: var(--main-font-family);
+    font-family: $main-font-family;
     font-weight: normal;
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.01em;
-    color: var(--secondary-fonts-color);
+    color: $secondary-fonts-color;
   }
   label {
     display: flex;
@@ -892,7 +883,7 @@
   
   .comments:focus{
     outline: none;
-    border-color: var(--accent-color);
+    border-color: $accent-color;
   }
   
   .button-modal{
@@ -901,11 +892,11 @@
     min-width: 200px;
     height: 50px;
     border-radius: 4px;
-    background: var(--accent-color);
-    color: var(--main-bck-color);
+    background: $accent-color;
+    color: $main-bck-color;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     font-family: inherit;
-    font-family: var(--main-font-family);
+    font-family: $main-font-family;
     font-weight: bold;
     font-size: 16px;
     line-height: 1.9;
@@ -928,11 +919,11 @@
   
   .input:focus{
     outline: none;
-    border-color: var(--accent-color);
+    border-color: $accent-color;
   }
   
   .input:focus~.input-img{
-    fill: var(--accent-color);
+    fill: $accent-color;
   }
   
   .old-check{
@@ -941,22 +932,22 @@
   }
   
   .modal-link{
-    font-family: var(--main-font-family);
+    font-family: $main-font-family;
     font-weight: normal;
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
-    color: var(--accent-color);
+    color: $accent-color;
     text-decoration: underline;
     
   }
   
   .modal:visited {
-    color: var(--accent-color);
+    color: $accent-color;
   }
   .check-boxing{
     position: relative;
-    border: solid 2px var(--main-fonts-color);
+    border: solid 2px $main-fonts-color;
     cursor: pointer;
     width: 16px;
     height: 15px;
@@ -967,7 +958,7 @@
   
   
   .old-check:checked ~ .check-boxing {
-    background-color: var(--accent-color);
+    background-color: $accent-color;
     border-color: transparent;
   }
   
@@ -987,12 +978,12 @@
   
   
   .check-text{
-    font-family: var(--main-font-family);
+    font-family: $main-font-family;
     font-weight: normal;
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
-    color: var(--secondary-fonts-color);
+    color: $secondary-fonts-color;
   }
   
   .check{
@@ -1000,7 +991,7 @@
   }
   
   .old-check:checked~.check-boxing{
-    background-color: var(--accent-color);
+    background-color: $accent-color;
   }
   .container-form{
     position: relative;
@@ -1018,13 +1009,13 @@
     display: flex;
   }
   .contact-details{
-    font-family: var(--main-font-family);
+    font-family: $main-font-family;
     font-weight: 700;
     font-size: 20px;
     line-height: 1.15;
     text-align: center;
     letter-spacing: 0.03em;
-    color: var(--main-fonts-color);
+    color: $main-fonts-color;
     margin-bottom: 12px;
     
   }
@@ -1060,7 +1051,7 @@
   }
   
   .button-close:hover{
-    color: var(--accent-color);
+    color: $accent-color;
   }
   
   
