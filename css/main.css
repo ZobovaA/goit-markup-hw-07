@@ -687,47 +687,6 @@ header {
   color: #2196f3;
 }
 
-.main-title-h2 {
-  color: #212121;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
-}
-
-.main-title-h3 {
-  color: #212121;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.19;
-  text-transform: uppercase;
-}
-
-.main-description {
-  -webkit-margin-before: 1em;
-          margin-block-start: 1em;
-  -webkit-margin-after: 1em;
-          margin-block-end: 1em;
-  -webkit-margin-start: 0px;
-          margin-inline-start: 0px;
-  -webkit-margin-end: 0px;
-          margin-inline-end: 0px;
-  font-size: 14px;
-  line-height: 1.7;
-  color: #757575;
-}
-
-.main-ourteam-block {
-  padding-top: 30px;
-  padding-bottom: 16px;
-}
-
-.description-index {
-  text-align: center;
-  color: #757575;
-  font-size: 16px;
-  line-height: 1.19;
-}
-
 .main-section2 {
   background-color: #f5f4fa;
   padding-bottom: 94px;
@@ -752,6 +711,10 @@ header {
 }
 
 .main-items:not(:last-child) {
+  margin-right: 30px;
+}
+
+.main-lis-items:not(:last-child) {
   margin-right: 30px;
 }
 
@@ -807,6 +770,60 @@ header {
   text-align: center;
 }
 
+.main-section1 {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.main-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main-description {
+  -webkit-margin-before: 1em;
+          margin-block-start: 1em;
+  -webkit-margin-after: 1em;
+          margin-block-end: 1em;
+  -webkit-margin-start: 0px;
+          margin-inline-start: 0px;
+  -webkit-margin-end: 0px;
+          margin-inline-end: 0px;
+  font-size: 14px;
+  line-height: 1.7;
+  color: #757575;
+}
+
+.main-description-index {
+  text-align: center;
+  color: #757575;
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+.main-title-h2 {
+  margin-bottom: 50px;
+  text-align: center;
+  color: #212121;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+}
+
+.main-title-h3 {
+  color: #212121;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.19;
+  text-transform: uppercase;
+}
+
+.main-ourteam-block {
+  padding-top: 30px;
+  padding-bottom: 16px;
+}
+
 .our-team-list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -831,6 +848,17 @@ header {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
+}
+
+.main-section1 {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.main-sec-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .main-wedo {
