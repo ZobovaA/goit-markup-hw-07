@@ -846,6 +846,14 @@ header {
   text-align: center;
 }
 
+.main-wedo {
+  position: relative;
+}
+
+.main-wedo-images {
+  display: block;
+}
+
 .main-wedo-overlay {
   position: absolute;
   width: 100%;
@@ -870,14 +878,6 @@ header {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
-}
-
-.main-wedo {
-  position: relative;
-}
-
-.main-wedo-images {
-  display: block;
 }
 
 .footer-join {
