@@ -3,18 +3,19 @@
 @import'components/common';
 @import'components/header';
 @import'components/logo';
-@import'components/icons';
+@import'components/icons-soc';
 @import'components/hero';
 @import'components/footer';
-@import'components/footersubscribe';
+@import'components/footer-subscribe';
 @import'components/portfolio';
 @import'components/mainclients';
 @import'components/mainadvantages';
 @import'components/mainourteam';
 @import'components/main-wedo';
-@import'components/footerjoin';
+@import'components/footer-join';
 @import'components/backdrop';
 @import'components/modal-form';
+@import'components/main-icons';
  
 .current {
   color: $accent-color;

@@ -1,6 +1,12 @@
 .clients {
     display: block;
   }
+
+  .main-section2 {
+    background-color: $sec-background-color;
+    padding-bottom: 94px;
+    padding-top: 94px;
+  }
   .clients-list {
     display: flex;
     justify-content: center;
