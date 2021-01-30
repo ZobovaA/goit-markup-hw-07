@@ -1,27 +1,6 @@
 @import'utils/variables';
-  a {
-    text-decoration: none;
-  }
-  
-  p,
-  h1,
-  h2,
-  h3 {
-    margin-top: 0;
-    margin-bottom: 0;
-  }
-  
-  ul {
-    margin: 0;
-    padding-left: 0;
-  }
-  li {
-    list-style-type: none;
-  }
-  body {
-    font-family:$main-font-family;
-  }
-  
+@import'base/default';
+ 
   .container {
     width: 1200px;
     margin: 0 auto;
