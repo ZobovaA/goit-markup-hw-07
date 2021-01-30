@@ -3,3 +3,12 @@
     margin: 0 auto;
     padding: 0 15px;
   }
+
+  .visually-hidden {
+    display: none;
+    position: absolute;
+    clip: rect(0000);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+  }
