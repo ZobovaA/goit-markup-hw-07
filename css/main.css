@@ -30,18 +30,6 @@ body {
   padding: 0 15px;
 }
 
-.logo {
-  font-family: "Raleway", sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  color: #2196f3;
-  margin-right: 93px;
-  width: 145px;
-}
-
 .header-adress {
   margin-left: auto;
   font-family: "Roboto", sans-serif;
@@ -71,22 +59,7 @@ body {
   color: #afb1b8;
 }
 
-.master-icon-mails {
-  width: 16px;
-  height: 12px;
-  fill: currentColor;
-  margin-right: 10px;
-}
-
-.master-icon-call {
-  fill: currentColor;
-  width: 10px;
-  height: 16px;
-  margin-right: 10px;
-}
-
-.link-header:hover,
-.link-header:focus {
+.link-header:hover, .link-header:focus {
   color: #2196f3;
 }
 
@@ -108,22 +81,14 @@ body {
           align-items: center;
 }
 
-.item-links:not(:last-child) {
-  margin-right: 50px;
-}
-
-.header-nav-links.header-links {
+.header-nav-links .header-links {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
 }
 
-.logo-colortext_bottom {
-  color: #ffffff;
-}
-
-.logo-colortext {
-  color: black;
+.item-links:not(:last-child) {
+  margin-right: 50px;
 }
 
 header {
@@ -184,8 +149,40 @@ header {
   color: #2196f3;
 }
 
-/*анимация*/
-/*Hero section*/
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+  margin-right: 93px;
+  width: 145px;
+}
+
+.logo-colortext_bottom {
+  color: #ffffff;
+}
+
+.logo-colortext {
+  color: black;
+}
+
+.master-icon-mails {
+  width: 16px;
+  height: 12px;
+  fill: currentColor;
+  margin-right: 10px;
+}
+
+.master-icon-call {
+  fill: currentColor;
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+}
+
 .hero {
   background-color: #2f303a;
 }
