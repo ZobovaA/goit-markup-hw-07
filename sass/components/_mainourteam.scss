@@ -1,6 +1,16 @@
 .our-team-list {
     display: flex;
   }
+  .main-section2 {
+    background-color: $sec-background-color;
+    padding-bottom: 94px;
+    padding-top: 94px;
+  }
+  .main-ourteam-block{
+    padding-top: 30px;
+    padding-bottom: 16px;
+  }
+  
   
   .ourteam-list-item:not(:last-child) {
     margin-right: 30px;

@@ -687,12 +687,6 @@ header {
   color: #2196f3;
 }
 
-.main-section2 {
-  background-color: #f5f4fa;
-  padding-bottom: 94px;
-  padding-top: 94px;
-}
-
 .main-list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -770,11 +764,6 @@ header {
   text-align: center;
 }
 
-.main-section1 {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
 .main-list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -819,15 +808,21 @@ header {
   text-transform: uppercase;
 }
 
-.main-ourteam-block {
-  padding-top: 30px;
-  padding-bottom: 16px;
-}
-
 .our-team-list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.main-section2 {
+  background-color: #f5f4fa;
+  padding-bottom: 94px;
+  padding-top: 94px;
+}
+
+.main-ourteam-block {
+  padding-top: 30px;
+  padding-bottom: 16px;
 }
 
 .ourteam-list-item:not(:last-child) {
