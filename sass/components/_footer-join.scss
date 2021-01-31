@@ -22,13 +22,12 @@
   
   .clients-list-f {
     display: flex;
+    margin-top: 20px;
   }
   .f-icon:not(:last-child) {
     margin-right: 10px;
   }
-  .clients-list-f {
-    margin-top: 20px;
-  }
+  
   .m-link-footer {
     background-color: rgba(255, 255, 255, 0.1);
     color: #ffffff;
