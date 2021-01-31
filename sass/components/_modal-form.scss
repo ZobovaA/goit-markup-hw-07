@@ -68,13 +68,7 @@
   .input:focus~.input-img{
     fill: $accent-color;
   }
-  
-  .old-check{
-    width: 16px;
-    height: 15px;
-  }
-  
- 
+   
   .check-boxing{
     position: relative;
     border: solid 2px $main-fonts-color;
@@ -83,10 +77,9 @@
     height: 15px;
     margin-left: 12px;
     margin-right: 8px;
-    
+ 
   }
-  
-  
+    
   .old-check:checked ~ .check-boxing {
     background-color: $accent-color;
     border-color: transparent;
@@ -118,7 +111,12 @@
   .check{
     display: flex;
   }
-  
+
+  .old-check{
+    width: 16px;
+    height: 15px;
+  }
+    
   .old-check:checked~.check-boxing{
     background-color: $accent-color;
   }
