@@ -1,3 +1,7 @@
+.portfolio-section {
+  padding-bottom: 94px;
+  padding-top: 94px;
+}
 .portfolio-text1 {
     color: $main-fonts-color;
     font-size: 18px;
@@ -19,11 +23,7 @@
     margin-bottom: 50px;
   }
   
-  .portfolio-section {
-    padding-bottom: 94px;
-    padding-top: 94px;
-  }
-  
+ 
   .portfolio-items:not(:last-child) {
     margin-right: 8px;
   }
