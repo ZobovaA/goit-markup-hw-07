@@ -6,10 +6,12 @@
     left: 0;
     bottom: 0;
     background-color:rgba(0, 0, 0, 0.2);;
+
+    .is-hidden.modal{
+      transform: scaleX(0);
+    }
   }
-  .backdrop.is-hidden.modal{
-    transform: scaleX(0);
-  }
+ 
   .modal{
     position: absolute;
     width: 528px;

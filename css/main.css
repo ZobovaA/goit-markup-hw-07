@@ -860,7 +860,7 @@ header {
   background-color: rgba(0, 0, 0, 0.2);
 }
 
-.backdrop.is-hidden.modal {
+.backdrop .is-hidden.modal {
   -webkit-transform: scaleX(0);
           transform: scaleX(0);
 }
