@@ -5,19 +5,17 @@
 .clients {
     display: block;
   }
-
-
-  .clients-list {
+.clients-list {
     display: flex;
     justify-content: center;
     margin-bottom: 0px;
     margin-top: 50px;
-  }
-  .clients-list .clients-link:not(:last-child) {
-    margin-right: 30px;
+    .clients-link:not(:last-child) {
+      margin-right: 30px;
+    }
   }
   
-  .clients-master {
+.clients-master {
     display: inline-flex;
     width: 170px;
     height: 90px;

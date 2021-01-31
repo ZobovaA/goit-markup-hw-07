@@ -1,3 +1,10 @@
+.footer-welcom {
+  display: inline-block;
+}
+.footer-main {
+  display: flex;
+  align-items: baseline;
+}
 .footer-join {
     color: #ffffff;
     width: 145px;
@@ -11,14 +18,7 @@
     display: inline;
     text-align: center;
   }
-  .footer-welcom {
-    display: inline-block;
-  }
   
-  .footer-main {
-    display: flex;
-    align-items: baseline;
-  }
   
   .clients-list-f {
     display: flex;

@@ -1,9 +1,10 @@
 
-.main-list {
+.main-advant-list {
   display: flex;
   
 }
-.main-items {
+.main-advant-items {
+  margin-bottom: 10px;
   justify-content: center;
   width: 270px;
   
@@ -38,21 +39,4 @@
   }
 }
 
-.main-lis-items:not(:last-child) {
-  margin-right: 30px;
-}
-.main-lis-items:not(:last-child) {
-  margin-right: 30px;
-}
-.main-items .main-title-h3{
-  margin-bottom: 10px;
-}
 
-  .main-sec-list {
-    display: flex;
-  }
-   
-  .main-title-h2 {
-    margin-bottom: 50px;
-    text-align: center;
-  }

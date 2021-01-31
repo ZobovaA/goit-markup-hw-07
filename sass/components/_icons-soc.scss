@@ -15,12 +15,11 @@
     display: flex;
     justify-content: center;
     margin-bottom: 30px;
+
+    .s-icon:not(:last-child) {
+      margin-right: 10px;
+    }
   }
-  
-  .social-list .s-icon:not(:last-child) {
-    margin-right: 10px;
-  }
-  
   
   .social-link {
     display: inline-flex;

@@ -26,56 +26,36 @@
     margin-bottom: 10px;
   }
   
+   .comments{
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    padding: 12px 16px;
+    margin-bottom: 20px;
+    &::placeholder {
+      color: rgba(117, 117, 117, 0.5);
+      font-size: 12px;
+      line-height: 1.17;
+      letter-spacing: 0.01em;
+    }
+    
+    &:focus{
+      outline: none;
+      border-color: $accent-color;
+    }
+  }
+   
+ 
   .input{
     border: 1px solid rgba(33, 33, 33, 0.2);
     box-sizing: border-box;
     border-radius: 4px;
     height: 40px;
     width: 100%;
-  }
-  
-  
-  .comments{
-    border: 1px solid rgba(33, 33, 33, 0.2);
-    border-radius: 4px;
-    padding: 12px 16px;
-    margin-bottom: 20px;
-  }
-  
-  .comments::placeholder {
-    color: rgba(117, 117, 117, 0.5);
-    font-size: 12px;
-    line-height: 1.17;
-    letter-spacing: 0.01em;
-  }
-  
-  .comments:focus{
-    outline: none;
-    border-color: $accent-color;
-  }
-  
-  .button-modal{
-    display: block;
-    cursor: pointer;
-    min-width: 200px;
-    height: 50px;
-    border-radius: 4px;
-    background: $accent-color;
-    color: $main-bck-color;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    font-family: inherit;
-    font-family: $main-font-family;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 1.9;
-    margin: 0 auto;
-    margin-top: 30px;
-    padding: 10px 56px 10px 56px;
-    border: 0;
-    
-  }
-  .input{
     padding-left: 42px;
+    &:focus{
+      outline: none;
+      border-color: $accent-color;
+    }
   }
   .input-img{
     position: absolute;
@@ -83,11 +63,6 @@
     top: 50%;
     transform: translateY(-50%);
     
-  }
-  
-  .input:focus{
-    outline: none;
-    border-color: $accent-color;
   }
   
   .input:focus~.input-img{
@@ -99,20 +74,7 @@
     height: 15px;
   }
   
-  .modal-link{
-    font-family: $main-font-family;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 1.7;
-    letter-spacing: 0.03em;
-    color: $accent-color;
-    text-decoration: underline;
-    
-  }
-  
-  .modal:visited {
-    color: $accent-color;
-  }
+ 
   .check-boxing{
     position: relative;
     border: solid 2px $main-fonts-color;
@@ -143,8 +105,7 @@
     transform: translate(-50%, -50%) scaleX(1);
     
   } 
-  
-  
+    
   .check-text{
     font-family: $main-font-family;
     font-weight: normal;
@@ -188,9 +149,6 @@
     
   }
   
-  .backdrop.is-hidden.modal{
-    transform: scaleX(0);
-  }
   .button-close{
     position: absolute;
     top: 8px;
@@ -204,6 +162,10 @@
     border: 1px solid rgba(0, 0, 0, 0.1); 
     border-radius: 50%;
     cursor: pointer;
+    
+    &:hover{
+      color: $accent-color;
+    }
   }
   .icon-close {
     width: 18px;
@@ -217,12 +179,7 @@
     fill: currentColor;
     
   }
-  
-  .button-close:hover{
-    color: $accent-color;
-  }
-  
-  
+   
   .is-hidden{
     opacity: 0;
     pointer-events: none;
